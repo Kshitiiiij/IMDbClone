@@ -1,4 +1,5 @@
 import MenuItem from "./MenuItem";
+import DarkMode from './DarkMode'
 import Link from "next/link";
 import { AiFillHome } from "react-icons/ai";
 import {BsFillInfoCircleFill} from 'react-icons/bs'
@@ -11,7 +12,8 @@ export default function header() {
         <MenuItem title="ABOUT " address="/about" Icon={BsFillInfoCircleFill} />
       </div>
 
-      <div className="">
+      <div className="flex items-center  space-x-5">
+        <DarkMode />
         <Link href='/'>
           <h2 className="2xl"><span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">IMDb</span><span className="text-xl hidden sm:inline">Clone</span></h2>
         </Link>
