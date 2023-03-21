@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { SpinnerInfinity } from 'spinners-react'
 
 export default function Card({result}) {
   return (
