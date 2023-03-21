@@ -8,7 +8,7 @@ export default function NavbarItem({title, pram}) {
   return (
     <div>
       <Link 
-      className={`m-4 hover:text-amber-600 font-semibold p-2 ${genre && genre===pram && "underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg"}`}
+      className={`m-4 hover:text-amber-600 font-semibold p-2 ${genre===pram && "underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg"}`}
       href={`/?genre=${pram}`}>
         {title}
       </Link>
