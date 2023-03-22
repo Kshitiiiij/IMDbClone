@@ -16,7 +16,7 @@ export default function Card({ result }) {
           }`}
           width={500}
           height={300}
-          className="sm:rounded-[25px] rounded-[5px] align-middle border-none group-hover:opacity-80 transition-opacity duration-200 py-3"
+          className="sm:rounded-[25px] rounded-[35px] align-middle border-none group-hover:opacity-80 transition-opacity duration-200 py-3"
           style={{
             maxWidth: "100%",
             height: "auto",
