@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Provider from "./Provider";
+import SearchBox from "./components/SearchBox";
 
 export const metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Provider>
           <Header />
           <Navbar />
+          <SearchBox />
           {children}
         </Provider>
       </body>
